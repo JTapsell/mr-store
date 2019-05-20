@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/mr-store/static/js/main.818b13a2.chunk.js",
-    "main.js.map": "/mr-store/static/js/main.818b13a2.chunk.js.map",
+    "main.js": "/mr-store/static/js/main.1a1b1864.chunk.js",
+    "main.js.map": "/mr-store/static/js/main.1a1b1864.chunk.js.map",
     "runtime~main.js": "/mr-store/static/js/runtime~main.2a4252a5.js",
     "runtime~main.js.map": "/mr-store/static/js/runtime~main.2a4252a5.js.map",
     "static/js/2.3ebbafa1.chunk.js": "/mr-store/static/js/2.3ebbafa1.chunk.js",
     "static/js/2.3ebbafa1.chunk.js.map": "/mr-store/static/js/2.3ebbafa1.chunk.js.map",
     "index.html": "/mr-store/index.html",
-    "precache-manifest.a52bad5eb84e7a35ba1666e156134553.js": "/mr-store/precache-manifest.a52bad5eb84e7a35ba1666e156134553.js",
+    "precache-manifest.c5acf232558aba745e761db68597c3ee.js": "/mr-store/precache-manifest.c5acf232558aba745e761db68597c3ee.js",
     "service-worker.js": "/mr-store/service-worker.js",
     "static/media/classic-tee.jpg": "/mr-store/static/media/classic-tee.e0f5b90e.jpg"
   }
