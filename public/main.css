@@ -28,14 +28,13 @@
 
 
 .cart-logo {
-  display: none;
-} 
-@media only screen and (max-device-width: 480px) {
+  padding: 6px;
+  float: right;
+}
+
+@media only screen and (min-width: 750px) {
   .cart-logo {
     display: none;
-  }
-  .cart-logo.mobile {
-    display: block;
   }
 }
 .cart {
