@@ -48,24 +48,25 @@ export default class Dashboard extends Component {
    render () {
      return (
       <>
-      <Row className='header justify-content-end'>
-        <img src={require('../assets/images/cart.png')}
-          className='cart-logo'
-          width='30'
-          height='30'
-          alt=''>
-        </img>
-        <div className='nav-cart'>
-          My Cart ( {this.state.quantity} )
-          <div className='cart'> <Cart shirts={this.state.shirts}/></div>
-        </div>
-      </Row>
       <div className='store-container'>
+        <Row className='header justify-content-end'>
+          <img src={require('../assets/images/cart.png')}
+            className='cart-logo'
+            width='30'
+            height='30'
+            alt=''>
+          </img>
+          <div className='nav-cart'>
+            My Cart ( {this.state.quantity} )
+            <div className='cart'> <Cart shirts={this.state.shirts}/></div>
+          </div>
+        </Row>
         <Row>
           <Col xs='12' md='8' lg='6'>
             <div>
               <img
                 src={require('../assets/images/classic-tee.jpg')}
+                className='tee-image'
                 width="400"
                 height="600"
                 alt="" />

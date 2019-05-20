@@ -3,6 +3,9 @@
   /* border: .5px solid red; */
 }
 
+html {
+  width: auto;
+}
 .nav-cart {
   float: right;
   padding: 6px;
@@ -84,7 +87,8 @@
 }
 
 .store-container {
-  margin: 30px 70px 0px 200px;
+  margin-right: 10%;
+  margin-left: 20%;
 }
 
 .title {
@@ -103,6 +107,11 @@
   color: #888888;
 }
 
+.tee-image{
+    width: auto ;
+    max-width: 100% ;
+    height: auto ;
+}
 .shown-size {
   font-size: 13px;
   padding: 6px;
