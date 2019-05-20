@@ -51,11 +51,7 @@ html {
     display: none;
   }
 }
-@media only screen and (max-width: 750px) {
-  .nav-cart {
-    display: none;
-  }
-}
+
 .cart {
   position: absolute;
   border: 1px solid #cccccc;
@@ -103,7 +99,7 @@ html {
 }
 
 .store-container {
-margin-left: 200px;
+margin-left: 10%;
 }
 
 .title {
