@@ -48,7 +48,14 @@ export default class Dashboard extends Component {
      return (
       <>
       <Row className='header justify-content-end'>
-        <div className='nav-cart'> My Cart ( {this.state.quantity} )
+        <div className='nav-cart'>
+          <div>
+            <img src={require('../assets/images/cart.png')}
+            className='cart-logo'
+            width='20'
+            height='20'>
+          </img>
+          </div>My Cart ( {this.state.quantity} )
           <div className='cart'> <Cart shirts={this.state.shirts}/></div>
         </div>
       </Row>
@@ -56,7 +63,11 @@ export default class Dashboard extends Component {
         <Row>
           <Col xs='12' md='8' lg='6'>
             <div>
-              <img src={require("../assets/images/classic-tee.jpg")} width="400" height="600" />
+              <img 
+                src={require("../assets/images/classic-tee.jpg")}
+                width="400" 
+                height="600"
+                alt="" />
             </div>
           </Col>
           <Col xs='12' md='8' lg='6'>
