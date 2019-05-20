@@ -53,8 +53,7 @@ export default class Dashboard extends Component {
           <img src={require('../assets/images/cart.png')}
             className='cart-logo'
             width='30'
-            height='30'
-            alt=''>
+            height='30'>
           </img>
           <div className='nav-cart'>
             My Cart ( {this.state.quantity} )
