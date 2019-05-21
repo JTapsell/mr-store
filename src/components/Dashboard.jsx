@@ -48,8 +48,7 @@ export default class Dashboard extends Component {
    render () {
      return (
       <>
-      <div className='store-container'>
-        <Row className='header justify-content-end'>
+              <Row className='header justify-content-end'>
           <img src={require('../assets/images/cart.png')}
             className='cart-logo'
             width='30'
@@ -61,6 +60,8 @@ export default class Dashboard extends Component {
             <div className='cart'> <Cart shirts={this.state.shirts}/></div>
           </div>
         </Row>
+      <div className='store-container'>
+
         <Row>
           <Col xs='12' md='8' lg='6'>
             <div>
