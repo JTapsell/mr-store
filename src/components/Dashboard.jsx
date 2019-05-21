@@ -48,7 +48,7 @@ export default class Dashboard extends Component {
    render () {
      return (
       <>
-              <Row className='header justify-content-end'>
+        <Row className='header justify-content-end'>
           <img src={require('../assets/images/cart.png')}
             className='cart-logo'
             width='30'
@@ -60,40 +60,39 @@ export default class Dashboard extends Component {
             <div className='cart'> <Cart shirts={this.state.shirts}/></div>
           </div>
         </Row>
-      <div className='store-container'>
-
-        <Row>
-          <Col xs='12' md='8' lg='6'>
-            <div>
-              <img
-                src={require('../assets/images/classic-tee.jpg')}
-                className='tee-image'
-                width="400"
-                height="600"
-                alt="" />
-            </div>
-          </Col>
-          <Col xs='12' md='8' lg='6'>
-            <div>
-              <h2 className='title'> Classic Tee </h2>
-              <p className='price'> $75.00 </p>
-              <p className='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse ac aliquam dui. Donec commodo mattis metus ut euismod.
-              Curabitur gravida dignissim nibh, nec volutpat enim feugiat sit amet.
-              Morbi lectus urna, gravida in mi et, sodales dictum purus.
-              Proin rhoncus ipsum vel euismod ullamcorper.</p>
-            </div>
-            <span className='show-size'>Size</span>
-            <span className='shown-size'>{this.state.currentSize}</span>
-            <div >
-              <button className='size-buttons' onClick={() => this.updateSize('S')}>S</button>
-              <button className='size-buttons' onClick={() => this.updateSize('M')}>M</button>
-              <button className='size-buttons' onClick={() => this.updateSize('L')}>L</button>
-            </div>
-            <button className='add-cart' onClick={() => this.addShirt()}>add to cart</button>
-          </Col>
-        </Row>
-      </div>
+        <div className='store-container'>
+          <Row>
+            <Col xs='12' md='8' lg='6'>
+              <div>
+                <img
+                  src={require('../assets/images/classic-tee.jpg')}
+                  className='tee-image'
+                  width="400"
+                  height="600"
+                  alt="" />
+              </div>
+            </Col>
+            <Col xs='12' md='8' lg='6'>
+              <div>
+                <h2 className='title'> Classic Tee </h2>
+                <p className='price'> $75.00 </p>
+                <p className='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse ac aliquam dui. Donec commodo mattis metus ut euismod.
+                Curabitur gravida dignissim nibh, nec volutpat enim feugiat sit amet.
+                Morbi lectus urna, gravida in mi et, sodales dictum purus.
+                Proin rhoncus ipsum vel euismod ullamcorper.</p>
+              </div>
+              <span className='show-size'>Size</span>
+              <span className='shown-size'>{this.state.currentSize}</span>
+              <div >
+                <button className='size-buttons' onClick={() => this.updateSize('S')}>S</button>
+                <button className='size-buttons' onClick={() => this.updateSize('M')}>M</button>
+                <button className='size-buttons' onClick={() => this.updateSize('L')}>L</button>
+              </div>
+              <button className='add-cart' onClick={() => this.addShirt()}>add to cart</button>
+            </Col>
+          </Row>
+        </div>
       </>
      )
    }
