@@ -35,11 +35,7 @@ export default class Dashboard extends Component {
        })
      } else {
        const newShirts = shirts.map(shirt => {
-         if (shirt.size === currentSize) {
-           return { ...shirt, quantity: shirt.quantity + 1 }
-         } else {
-           return { ...shirt }
-         }
+         return shirt.size === currentSize ? { ...shirt, quantity: shirt.quantity + 1 } : { ...shirt }
        })
        console.log(newShirts)
        this.setState({ shirts: newShirts, quantity: quantity + 1, currentSize })
